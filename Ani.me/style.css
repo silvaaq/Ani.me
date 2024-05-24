@@ -8,17 +8,25 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     color: #333;
+    
 }
 
 .container {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    
+  
 }
 
 header {
-    background-color: #282c34;
+    background-color: #3409090B;
     padding: 20px 0;
     color: white;
+   
 }
 
 header h1 {
@@ -54,60 +62,44 @@ header ul li a:hover {
     color: white;
     text-align: center;
     padding: 100px 0;
+  
 }
 
-.banner h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
 
-.banner p {
-    font-size: 1.2em;
+.banner p h3 {
+    font-size: 1.2rem;
+     transform: translate(-10px);
+    position: absolute;
+
 }
 
 .anime-list {
     padding: 50px 0;
     background-color: #fff;
+   
+   
 }
 
-.anime-list h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
+
 
 .anime-cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: solid 2px black;
+   
+   
+   
 }
 
-.anime-card {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-     margin-bottom: 10px;
-    
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-    transition: transform 0.3s;
-    border: solid 2px black;
-}
 
-.anime-card img {
-    width: 30%;
+.anime-cards img {
+    width: 15%;
     height: auto;
-}
-
-.anime-card h3 {
-    justify-items: center;
-    padding: 10px 0;
     
+    
+   
 }
 
-.anime-card:hover {
-    transform: scale(1.05);
-}
 
 footer {
     background-color: #282c34;
@@ -122,5 +114,5 @@ footer {
 .button-style{
 text-align: center;
 
-
 }
+
